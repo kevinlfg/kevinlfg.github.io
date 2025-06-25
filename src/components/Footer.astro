@@ -1,8 +1,11 @@
 ---
-const platform = "github";
-const username = "kevinlfg";
+import Social from './Social.astro';
+const github_username = "kevinlfg";
+const youtube_username = "@sandfallgames";
 ---
 
 <footer>
-  <p>Learn more about my projects on <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p>
+  <Social platform="github" username="kevinlfg" />
+  <Social platform="youtube" username="@sandfallgames" />
+  <Social platform="youtube" username={"$youtube_username"} />
 </footer>
