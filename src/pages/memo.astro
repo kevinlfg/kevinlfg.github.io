@@ -11,7 +11,7 @@ const pageTitle = "Memos"
 	<ul>
 		{
 			allPosts.map(
-				(post: any) => <p url={post.url} title={post.frontmatter.title}> <p/>
+				(post: any) => <p url={post.url}> post.frontmatter.title} <p/>
 			)
 		}
 	</ul>
