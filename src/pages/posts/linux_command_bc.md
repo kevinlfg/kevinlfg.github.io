@@ -1,7 +1,12 @@
 ---
 layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Linux command'
+pubDate: 2025-07-09
 description: 'Linux command bc (basic calculator)'
+author: 'Astro Learner'
+image:
+    url: 'https://docs.astro.build/assets/rose.webp'
+    alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ["linux","command"]
 ---
 
