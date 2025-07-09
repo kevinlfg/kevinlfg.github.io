@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MemoLayout.astro
+layout: ../../../layouts/MemoLayout.astro
 title: 'bc command'
 description: 'Linux command bc (basic calculator)'
 tags: ["linux","command"]
