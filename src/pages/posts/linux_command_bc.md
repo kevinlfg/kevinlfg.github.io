@@ -1,5 +1,5 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
+layout: ../../layouts/MemoLayout.astro
 title: 'Linux command'
 pubDate: 2025-07-09
 description: 'Linux command bc (basic calculator)'
