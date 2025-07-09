@@ -2,12 +2,14 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = Object.values(import.meta.glob('./memo/linux/*.md', { eager: true }));
+const allFolder = Object.values(import.meta.glob('./memo/*', { eager: true }));
 const pageTitle = "Memos"
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<p>This is where I will post about my journey learning Astro.</p>
 	<script is:inline define:vars={{allPosts}}>console.log(allPosts);</script>
+	<script is:inline define:vars={{allFolder}}>console.log(allFolder);</script>
 	<ul>
 		{
 			allPosts.map(
