@@ -26,8 +26,8 @@ quit
 ## Script use
 
 ```Shell
-$licence_used=150
-$licence_total=200
-echo "scale=2; ($licence_used / $licence_total * 100)" | bc
-# 75
+~> licence_used=150
+~> licence_total=200
+~> echo "scale=2; ($licence_used / $licence_total * 100)" | bc
+75
 ```
