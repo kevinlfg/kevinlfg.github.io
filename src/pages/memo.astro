@@ -2,18 +2,53 @@
 import BaseLayout from '../layouts/BaseLayout.astro';
 import BlogPost from '../components/BlogPost.astro';
 const allPosts = Object.values(import.meta.glob('./memo/linux/*.md', { eager: true }));
-const allMd = Object.values(import.meta.glob('./memo/*/*.md', { eager: true }));
+const allMemos = Object.values(import.meta.glob('./memo/*/*.md', { eager: true }));
 const pageTitle = "Memos"
 ---
 
 <BaseLayout pageTitle={pageTitle}>
 	<p>This is where I will post about my journey learning Astro.</p>
-	<script is:inline define:vars={{allPosts}}>console.log(allPosts);</script>
-	<script is:inline define:vars={{allMd}}>console.log(allMd);</script>
+	<script is:inline define:vars={{allPosts,allMemos}}>
+		// console.log("allPosts", allPosts);
+		// console.log("allMemos", allMemos);
+
+		
+		let tree = {}
+
+		class Node {
+			
+		}
+		
+		class Link {
+			constructor(text, href) {
+				this.text = text;
+				this.href = href;
+			}
+		}
+
+		for(memo of allMemos) {
+
+			let splittedUrl = memo.url.split("/").splice(2);
+			// console.log(splittedUrl)
+
+			if(tree[splittedUrl[0]]) {
+				console.log(splittedUrl[0] + " exists; add a new item in the array")
+				tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
+			}
+			else {
+				console.log(splittedUrl[0] + " doesn't exists; add a property")
+				tree[splittedUrl[0]] = []
+				tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
+			}
+			// console.log(JSON.stringify(tree, null, 2))
+		}
+
+		console.log(JSON.stringify(tree, null, 2))
+	</script>
 	<ul>
 		{
 			allPosts.map(
-				(post: any) => <p><a href={post.url}>{post.frontmatter.title}</a><p/>
+				(post: any) => <p><a href={post.url}>{post.frontmatter.title}</a></p>
 			)
 		}
 	</ul>
