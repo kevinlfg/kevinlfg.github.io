@@ -5,7 +5,6 @@ description: 'Used to inspect a text file'
 tags: ["linux","command","text","file"]
 ---
 
-###### In console :
 In console :
 ``` Bash
 less [OPTIONS] filename
@@ -14,7 +13,6 @@ less -X filename # By default, when exiting the command, the text disapear. -X w
 less +F filename # Follow mode to monitor any changes to the file
 ```
 
-###### Actions :
 Actions :
 | Action | Key | Example | Comments |
 |---|---|---|---|
