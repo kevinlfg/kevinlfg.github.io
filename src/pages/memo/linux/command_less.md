@@ -8,12 +8,12 @@ less +F filename # Follow mode to monitor any changes to the file
 
 | Action | Key | Example | Comments |
 |---|---|---|---|
-| Search | `/text_to_search` |  |  |
-| Next occurence of the search | `n` |  |  |
-| Previous occurence of the search | `N` |  |  |
+| Search | `/text_to_search` | - |  |
+| Next occurence of the search | `n` | - |  |
+| Previous occurence of the search | `N` | - |  |
 |---|---|---|---|
-| Next Page | `f` or `Space bar` |  |  |
-| Previous Page | `b` or `5b` |  |  |
+| Next Page | `f` or `Space bar` | - |  |
+| Previous Page | `b` |  |  |
 | Go x lines forward | `xf` |  |  |
 | Go x lines backward | `xb` |  |  |
 | Go to the top | `g` |  |  |
