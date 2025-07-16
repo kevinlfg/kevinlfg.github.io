@@ -6,6 +6,7 @@ tags: ["linux","command","text","file"]
 ---
 
 ###### In console :
+In console :
 ``` Bash
 less [OPTIONS] filename
 less -N filename # Display line numbers
@@ -14,6 +15,7 @@ less +F filename # Follow mode to monitor any changes to the file
 ```
 
 ###### Actions :
+Actions :
 | Action | Key | Example | Comments |
 |---|---|---|---|
 | Search | `/text_to_search` | - | - |
