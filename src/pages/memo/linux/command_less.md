@@ -1,8 +1,8 @@
 ---
 layout: ../../../layouts/MemoLayout.astro
-title: 'bc command'
-description: 'Linux command bc (basic calculator)'
-tags: ["linux","command"]
+title: 'less command'
+description: 'Used to inspect a text file'
+tags: ["linux","command","text","file"]
 ---
 
 ###### In console :
