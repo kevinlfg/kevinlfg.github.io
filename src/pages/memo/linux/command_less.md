@@ -1,3 +1,11 @@
+---
+layout: ../../../layouts/MemoLayout.astro
+title: 'bc command'
+description: 'Linux command bc (basic calculator)'
+tags: ["linux","command"]
+---
+
+###### In console :
 ``` Bash
 less [OPTIONS] filename
 less -N filename # Display line numbers
@@ -5,13 +13,13 @@ less -X filename # By default, when exiting the command, the text disapear. -X w
 less +F filename # Follow mode to monitor any changes to the file
 ```
 
-
+###### Actions :
 | Action | Key | Example | Comments |
 |---|---|---|---|
 | Search | `/text_to_search` | - | - |
 | Next occurence of the search | `n` | - | - |
 | Previous occurence of the search | `N` | - | - |
-|---|---|---|---|
+|-|-|-|-|
 | Next Page | `f` or `Space bar` | - | - |
 | Previous Page | `b` | - | - |
 | Go x lines forward | `xf` | `50f` to go 50 lines forward | - |
