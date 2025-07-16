@@ -8,18 +8,18 @@ less +F filename # Follow mode to monitor any changes to the file
 
 | Action | Key | Example | Comments |
 |---|---|---|---|
-| Search | `/text_to_search` | - |  |
-| Next occurence of the search | `n` | - |  |
-| Previous occurence of the search | `N` | - |  |
+| Search | `/text_to_search` | - | - |
+| Next occurence of the search | `n` | - | - |
+| Previous occurence of the search | `N` | - | - |
 |---|---|---|---|
-| Next Page | `f` or `Space bar` | - |  |
-| Previous Page | `b` | - |  |
-| Go x lines forward | `xf` | `50f` |  |
-| Go x lines backward | `xb` | `50b` |  |
-| Go to the top | `g` | - |  |
-| Go to the bottom | `G` | - |  |
-| Go to line x | `xg` | - |  |
-| Go to the top | `p` | - |  |
-| Go to x percent of the file | `xp` | - |  |
-| Help | `h` | - |  |
-| Quit | `q` | - |  |
+| Next Page | `f` or `Space bar` | - | - |
+| Previous Page | `b` | - | - |
+| Go x lines forward | `xf` | `50f` to go 50 lines forward | - |
+| Go x lines backward | `xb` | `50f` to go 50 lines forward | - |
+| Go to the top | `g` | - | - |
+| Go to the bottom | `G` | - | - |
+| Go to line x | `xg` | `50g` to go to the line 50 | - |
+| Go to the top | `p` | - | - |
+| Go to x percent of the file | `xp` | `50p` to go to the middle of the of the file | - |
+| Help | `h` | - | - |
+| Quit | `q` | - | - |
