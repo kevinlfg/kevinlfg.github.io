@@ -12,38 +12,71 @@ const pageTitle = "Memos"
 		// console.log("allPosts", allPosts);
 		// console.log("allMemos", allMemos);
 
-		
-		let tree = {}
-
-		class Node {
-			
-		}
-		
-		class Link {
-			constructor(text, href) {
-				this.text = text;
-				this.href = href;
+		function buildTree() {
+			let tree = {};
+			class Link {
+				constructor(text, href) {
+					this.text = text;
+					this.href = href;
+				}
 			}
-		}
 
-		for(memo of allMemos) {
+			for(memo of allMemos) {
 
-			let splittedUrl = memo.url.split("/").splice(2);
-			// console.log(splittedUrl)
+				let splittedUrl = memo.url.split("/").splice(2);
+				// console.log(splittedUrl);
 
-			if(tree[splittedUrl[0]]) {
-				console.log(splittedUrl[0] + " exists; add a new item in the array")
-				tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
+				if(tree[splittedUrl[0]]) {
+					console.log(splittedUrl[0] + " exists; add a new item in the array");
+					tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url));
+				}
+				else {
+					console.log(splittedUrl[0] + " doesn't exists; add a property");
+					tree[splittedUrl[0]] = [];
+					tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url));
+				}
+				// console.log(JSON.stringify(tree, null, 2));
 			}
-			else {
-				console.log(splittedUrl[0] + " doesn't exists; add a property")
-				tree[splittedUrl[0]] = []
-				tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
-			}
-			// console.log(JSON.stringify(tree, null, 2))
+			console.log(JSON.stringify(tree, null, 2));
 		}
+		buildTree();
 
-		console.log(JSON.stringify(tree, null, 2))
+		function buildTree2() {
+			let tree = {}
+			class Folder {
+				constructor(text, href) {
+					this.text = text;
+					this.href = href;
+				}
+			}
+			class Link {
+				constructor(text, href) {
+					this.text = text;
+					this.href = href;
+				}
+			}
+
+			for(memo of allMemos) {
+
+				let splittedUrl = memo.url.split("/").splice(2);
+				// console.log(splittedUrl)
+
+				if(tree[splittedUrl[0]]) {
+					console.log(splittedUrl[0] + " exists; add a new item in the array")
+					tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
+				}
+				else {
+					console.log(splittedUrl[0] + " doesn't exists; add a property")
+					tree[splittedUrl[0]] = []
+					tree[splittedUrl[0]].push(new Link(splittedUrl[1], memo.url))
+				}
+				// console.log(JSON.stringify(tree, null, 2))
+			}
+			console.log(JSON.stringify(tree, null, 2))
+		}
+		buildTree2();
+
+
 	</script>
 	<ul>
 		{
