@@ -6,7 +6,7 @@ tags: ["linux","command","text","file"]
 ---
 
 In console :
-``` Bash
+```bash
 less [OPTIONS] filename
 less -N filename # Display line numbers
 less -X filename # By default, when exiting the command, the text disapear. -X will keep the text displayed
