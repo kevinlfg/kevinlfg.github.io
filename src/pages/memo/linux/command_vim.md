@@ -6,7 +6,7 @@ tags: ["linux","command","text","file"]
 ---
 
 In console :
-``` Bash
+```bash
 vim [OPTIONS] filename
 ```
 
