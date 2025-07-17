@@ -16,3 +16,4 @@ Interactive mode :
 | Quit | `:q` | - | - |
 | Insert | `:i` | - | - |
 | Save | `:w` | - | - |
+| Force Save | `:w!` | - | - |
