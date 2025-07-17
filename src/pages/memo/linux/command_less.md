@@ -13,7 +13,7 @@ less -X filename # By default, when exiting the command, the text disapear. -X w
 less +F filename # Follow mode to monitor any changes to the file
 ```
 
-Actions :
+Interactive mode :
 | Action | Key | Example | Comments |
 |---|---|---|---|
 | Search | `/text_to_search` | - | - |
