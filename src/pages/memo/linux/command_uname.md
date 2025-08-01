@@ -8,7 +8,7 @@ Linux
 ### Common Options
 
 | Option | Dexcription |
-| :--------: | :------- |
+| :-: | :------- |
 | `-a` | Displays all system information |
 | `-s` | Shows the kernel name (same sa default `uname`) |
 | `-r` | Displays the kernel release version |
