@@ -7,13 +7,13 @@ Linux
 
 ### Common Options
 
-| Option | Dexcription |
-| -------- | ------- |
-| `-a` | Displays all system information |
-| `-s` | Shows the kernel name (same sa default `uname`) |
-| `-r` | Displays the kernel release version |
-| `-v` | Shows the kernel version |
-| `-m` | Prints the machine hardware architecture (`x86_64`, etc) |
-| `-n` | Displays the network hostname |
-| `-o` | Prints the operating system name |
-| `-p` | Shows the processor type (may return `unknown` on some system) |
+| Option | Dexcription | Dexcription |
+| :-------- | :-------: | -------: |
+| `-a` | Displays all system information | Displays all system information |
+| `-s` | Shows the kernel name (same sa default `uname`) | Shows the kernel name (same sa default `uname`) |
+| `-r` | Displays the kernel release version | |
+| `-v` | Shows the kernel version | |
+| `-m` | Prints the machine hardware architecture (`x86_64`, etc) | |
+| `-n` | Displays the network hostname | |
+| `-o` | Prints the operating system name | |
+| `-p` | Shows the processor type (may return `unknown` on some system) | |
