@@ -5,6 +5,8 @@ description: 'Linux command bc (basic calculator)'
 tags: ["linux","command"]
 ---
 
+bc = basic calculator
+
 ## Interactive use
 
 ```
