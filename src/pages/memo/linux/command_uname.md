@@ -1,7 +1,11 @@
 
 
-# Common Options
+``` Bash
+~# uname
+Linux
+```
 
+# Common Options
 
 | Option | Dexcription |
 | -------- | ------- |
