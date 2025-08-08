@@ -12,8 +12,10 @@ AAAAA
 ## Example
 
 ```console
-user@host:~$ pwd
-/home/user
+user@host:~$ ls -lrth log-2025-08-08.log
+user@host:~$ ls -lrth log-2025-08*
+
+ls -ltr /home/app/scripts/logs/ | awk '{print $9}'
 ```
 
 ## Argument/Flag/Options
