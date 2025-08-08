@@ -9,8 +9,8 @@ bc = basic calculator
 
 ## Interactive use
 
-```
-~# bc
+```console
+user@host:~$ bc
 bc 1.06.95
 Copyright 1991-1994, 1997, 1998, 2000, 2004, 2006 Free Software Foundation, Inc.
 This is free software with ABSOLUTELY NO WARRANTY.
@@ -22,9 +22,9 @@ quit
 
 ## Script use
 
-```
-~# licence_used=150
-~# licence_total=200
-~# echo "scale=2; ($licence_used / $licence_total * 100)" | bc
+```console
+user@host:~$ licence_used=150
+user@host:~$ licence_total=200
+user@host:~$ echo "scale=2; ($licence_used / $licence_total * 100)" | bc
 75
 ```
