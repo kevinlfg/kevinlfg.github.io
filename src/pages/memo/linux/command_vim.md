@@ -7,7 +7,7 @@ tags: ["linux","command","text","file"]
 
 In console :
 ```console
-user@host:~$ vim [OPTIONS] filename
+vim [OPTIONS] filename
 ```
 
 Interactive mode :
