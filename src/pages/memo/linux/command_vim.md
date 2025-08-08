@@ -6,8 +6,8 @@ tags: ["linux","command","text","file"]
 ---
 
 In console :
-```bash
-vim [OPTIONS] filename
+```console
+user@host:~$ vim [OPTIONS] filename
 ```
 
 Interactive mode :
