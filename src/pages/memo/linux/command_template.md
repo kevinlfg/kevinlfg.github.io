@@ -5,24 +5,24 @@ description: 'Example'
 tags: ["linux","command"]
 ---
 
-### Purpose
+## Purpose
 
 Prints the route that IP packets take to a network host.
 
-### Example
+## Example
 
 ```console
 user@host:~$ pwd
 /home/user
 ```
 
-### Argument/Flag/Options
+## Argument/Flag/Options
 
 | Option | Description |
 | :-: | :- |
 | `-AAA` | AAA |
 
-### Interactive mode
+## Interactive mode
 | Action | Key | Example | Comments |
 |---|---|---|---|
 | AAA | `:A` | - | - |
