@@ -1,4 +1,8 @@
 ---
+layout: ../../../layouts/MemoLayout.astro
+title: 'Example command'
+description: 'Example'
+tags: ["linux","command"]
 ---
 
 ### Purpose
@@ -21,4 +25,4 @@ user@host:~$ pwd
 ### Interactive mode
 | Action | Key | Example | Comments |
 |---|---|---|---|
-| Quit | `:q` | - | - |
+| AAA | `:A` | - | - |
