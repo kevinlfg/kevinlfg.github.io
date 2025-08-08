@@ -1,7 +1,7 @@
 pwd = Print Working Directory
 
-```
-~# pwd
+```console
+user@host:~$ pwd
 /root
 ```
 
