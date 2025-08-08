@@ -7,7 +7,7 @@ tags: ["linux","command"]
 
 ## Purpose
 
-Prints the route that IP packets take to a network host.
+AAAAA
 
 ## Example
 
