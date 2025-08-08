@@ -1,6 +1,6 @@
 
 
-``` Bash
+```Bash
 ~# uname
 Linux
 ```
