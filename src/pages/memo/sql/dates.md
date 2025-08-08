@@ -5,9 +5,13 @@ description: 'SQL condition on date'
 tags: ["linux","command"]
 ---
 
-# SQL Server
-
+## PostgresSQL
+```SQL
 ```
+
+## SQL Server
+
+```SQL
 # Rows where start_date is between 2025-01-01 (included) and 2025-01-08 (excluded)
 SELECT *
 FROM table
@@ -20,4 +24,12 @@ SELECT *
 FROM table
 WHERE start_date <= CURRENT_DATE - 7
 ORDER BY start_date
+```
+
+## Oracle
+```SQL
+```
+
+## MySQL
+```SQL
 ```
