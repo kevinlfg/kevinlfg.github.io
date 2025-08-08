@@ -1,7 +1,7 @@
 
 
 ```console
-user@host:~# uname
+user@host:~$ uname
 Linux
 ```
 
